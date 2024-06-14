@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfoliyo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/40bca2a357.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfoliyo">Portfoliyo</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Android developer</p>
+                <h1>Hi, I'm <span>Kirtan</span> <br> Santoki from India</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/IMG_6057.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hi, I am Kirtan Santoki. I am from Surendranagar. I am currently studing
+                        in B.Tech from Ganpat University, Mehsana. I want became an Android developer.
+                        I have learned many programming languages like C, Java, Python, HTML, CSS, 
+                        Javascript etc. I am also working on my communication skills.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing App interfaces</li>
+                            <li><span>Web Development</span><br>Web App development</li>
+                            <li><span>App development</span><br>Building Android/ios App</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2026</span><br>Currently I am a student.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2026</span><br>B.Tech from Ganpat University</li>
+                            <li><span>2022</span><br>HSC from Ultravision Academy</li>
+                            <li><span>2020</span><br>SSC from Ultravision Academy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Creating good looking websites.</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Designing various fealds.</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>App Design</h2>
+                    <p>creating vaious useful Apps.</p>
+                    <a href="">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfoliyo">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/IMG20230102163603.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app content you to the talented people around the world.
+                            Download it from play store.</p>
+                            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>  
+                </div>
+                <div class="work">
+                    <img src="Images/IMG-20240512-WA0022.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app content you to the talented people around the world.
+                            Download it from play store.</p>
+                            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/IMG20230102163206.jpg">
+                    <div class="layer">
+                        <h3>Shopping App</h3>
+                        <p>The app content you to the talented people around the world.
+                            Download it from play store.</p>
+                            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>kirtansantoki12@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91-9328869698</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/KirtanPatel8" class="github"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://x.com/Kirtan_Santoki" class="x"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://instagram.com/Kirtan_Patel_08" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/kirtan-santoki-29910925b" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Images/UltimateJavaCheatSheet.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © dev.KT</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemen = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemen.style.right = "0";
+        }
+        function closemenu(){
+            sidemen.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz-HvFG-3fJd2pMeClh0Hz7y2EdrYPCAEKvAthic1gMK8oQmLR6nqp2ncO4ivTr4MZIDQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Your detail submitted successfully..!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
